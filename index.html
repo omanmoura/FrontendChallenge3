@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/form-cabecalho.css">
+    <link rel="stylesheet" href="css/banner.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -16,7 +17,7 @@
         <a href="#" class="cabecalho__botao">Login</a>
         <form action="#" method="get" class="form__cabecalho">
             <label for="form__cabecalho--label" class="form__cabecalho--label"></label>
-            <input type="text" id="texto--busca" name="texto--busca" class="form__cabecalho--campo" placeholder="O que deseja encontrar?">
+            <input type="search" id="texto--busca" name="texto--busca" class="form__cabecalho--campo" placeholder="O que deseja encontrar?">
             <button type="submit" class="form__cabecalho--botao"><img src="img/lupa.svg"></button>
         </form>
     </header>
@@ -25,8 +26,8 @@
         <section class="banner">
             <img src="img/Banner.png" alt="Figure do cogumelo do Mário" class="banner__imagem">
             <h1 class="banner__titulo">Dezembro Promocional</h1>
-            <h2 class="banner_subtitulo">Produtos selecionados com 33% de desconto</h2>
-            <a href="#consoles" class="botao__padrao">Ver Consoles</a>
+            <h2 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h2>
+            <a href="#consoles" class="banner__botao botao__padrao">Ver Consoles</a>
         </section>
 
         <section class="galeria__starwars">
@@ -70,7 +71,7 @@
             </figure>
         </section>
 
-        <section class="galeria__consoles">
+        <section class="galeria__consoles" id="consoles">
             <h2>Consoles</h2>
             <div><a href="#">Ver tudo</a><img src="img/setaDireita.svg" alt="Seta para a direita"></div>
             <figure>

@@ -32,6 +32,16 @@ body {
     border: 2px solid var(--azul);
 }
 
+.botao__padrao {
+    background-color: var(--azul);
+    color: var(--branco);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 120px;
+    padding: 0.7rem;
+}
+
 @media (min-width: 640px) and (max-width: 1200px) {
     .cabecalho__logo {
         order: 1;
@@ -58,5 +68,10 @@ body {
 
     .cabecalho__botao {
         order: 3;
+    }
+
+    .botao__padrao {
+        width: 130px;
+        padding: 0.8rem 0.8rem;
     }
 }

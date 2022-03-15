@@ -13,6 +13,7 @@
         width: 1px;
         height: 1px;
         overflow: hidden;
+        outline: none;
     }
     
     .form__cabecalho--botao {
@@ -45,6 +46,7 @@
         font-size: 14px;
         font-weight: 400;
         color: var(--cinza-medio);
+        outline: none;
     }
     
     .form__cabecalho--botao {

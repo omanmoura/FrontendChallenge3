@@ -1,0 +1,17 @@
+.container {
+    padding: 0 5%;
+}
+
+@media (min-width: 1066px) {
+    .cabecalho {
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-left: calc((100% - 1100px)/2);
+        padding-right: calc((100% - 1100px)/2);
+    }
+}

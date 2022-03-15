@@ -1,20 +1,21 @@
 :root {
     --fonte-padrao: 'Raleway', sans-serif;
+    
     --azul: #2A7AE4;
+    --branco: #FFF;
+    --cinza-claro: #F5F5F5;
+    --cinza-medio: #A2A2A2;
 }
 
 body {
     font-family: var(--fonte-padrao);
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
 .cabecalho {
-    padding: 1rem 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -27,6 +28,35 @@ body {
     color: var(--azul);
     font-size: 14px;
     font-weight: 600;
-    padding: 0.625rem 3rem;
+    padding: 0.625rem 2.5rem;
     border: 2px solid var(--azul);
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+    .cabecalho__logo {
+        order: 1;
+    }
+
+    .cabecalho__busca {
+        order: 2;
+    }
+
+    .cabecalho__botao {
+        order: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cabecalho__logo {
+        order: 1;
+        width: 176px;
+    }
+
+    .cabecalho__busca {
+        order: 2;
+    }
+
+    .cabecalho__botao {
+        order: 3;
+    }
 }

@@ -1,0 +1,62 @@
+@media (max-width: 640px) {
+    .form__cabecalho--label {
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+    
+    .form__cabecalho--campo {
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+    
+    .form__cabecalho--botao {
+        padding-right: 1rem;
+        width: 17px;
+        border: none;
+        background-color: var(--branco);
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 640px) {
+    .form__cabecalho {
+        display: flex;
+        width: 272px;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 20px;
+        border: 2px solid var(--cinza-claro);
+        background-color: var(--cinza-claro);
+    }
+
+    
+    .form__cabecalho--campo {
+        padding: 0.6rem 0.4rem 0.6rem 1rem;
+        flex-grow: 1;
+        border: none;
+        background-color: var(--cinza-claro);
+        font-family: var(--fonte-padrao);
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--cinza-medio);
+    }
+    
+    .form__cabecalho--botao {
+        padding-right: 1rem;
+        border: none;
+        background-color: var(--cinza-claro);
+        opacity: 0.4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form__cabecalho {
+        width: 393px;
+    }
+}

@@ -1,0 +1,32 @@
+:root {
+    --fonte-padrao: 'Raleway', sans-serif;
+    --azul: #2A7AE4;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.cabecalho {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    width: 100px;
+}
+
+.cabecalho__botao {
+    color: var(--azul);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.625rem 3rem;
+    border: 2px solid var(--azul);
+}
